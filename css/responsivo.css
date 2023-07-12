@@ -145,10 +145,15 @@
         padding-bottom: 2rem;
     }
 
+    .horaClass h3 {
+        padding-top: 0;
+    }
 
     .titulogaleria, .horaClass h3 {
         font-size: 1.5rem;
         letter-spacing: 1px;
+        padding-top: 0;
+        padding-bottom: .5rem;
     }
     .seccionCentral{
         width: 100%;
@@ -222,6 +227,9 @@
 .centradocolumn form {
         width: 100%;
     }
+    .horaClass p{
+        padding-bottom: 1rem;
+    }
 
 }
 
@@ -240,6 +248,9 @@
         width: 90%;
         height: auto;
 
+    }
+    .horaClass p{
+        padding-bottom: 0rem;
     }
 
     .horaClass{
@@ -260,6 +271,7 @@
     .navbar{
         width: fit-content;
     }
+    
     .titulogaleria, .horaClass h3 {
         padding: 0;
        font-size: 1.2rem;    

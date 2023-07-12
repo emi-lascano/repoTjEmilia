@@ -102,25 +102,16 @@
         margin-bottom: 2rem;
         text-align: center;
     }
-    /* .imgClass1{
-        display: none;
-    }
-    .imgClass2{
-        display:block;
-        max-width: 100%;
-        height: auto;
-        margin: 0;
-     
-    } */
+  
 
     .imgClass{
         height: auto;
-        max-width: 100%;
+        max-width: 95%;
       
     } 
     .presencia2{
       
-        max-height:800px;
+        max-height:600px;
       /*  background-size:850px;*/
         padding-top: 200px;
         padding-bottom: 200px;
@@ -260,7 +251,7 @@
     .presencia2{
         
 
-        max-height:500px;
+        max-height:350px;
         margin-top: 15px;
         margin-bottom: 0;
         padding: 0px;

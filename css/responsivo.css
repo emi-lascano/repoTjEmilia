@@ -148,7 +148,7 @@
     .titulogaleria, .horaClass h3 {
  
 
-        padding-top:1rem;  
+        padding-top:2.5rem;  
         font-size: 1.5rem;
 
         letter-spacing: 1px;
@@ -255,7 +255,7 @@
 
         max-height:500px;
         margin-top: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         padding: 0px;
     }
 

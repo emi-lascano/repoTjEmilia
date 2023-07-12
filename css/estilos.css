@@ -142,7 +142,7 @@ h2 {
     transform: scale(1.5); 
 }
   */
-.carousel-item{
+.carousel{
     margin-left: 0px;
     margin: auto;
     top: 0px;
@@ -162,9 +162,6 @@ main {
     
     justify-content: center;
     align-items: center;
-    top: 0px;
-}
-.carousel-inner{
     top: 0px;
 }
 

@@ -126,7 +126,7 @@
  
 
         padding-top:1rem;  
-        font-size: 1.2rem;
+        font-size: 1.5rem;
 
         letter-spacing: 1px;
     }
@@ -224,7 +224,7 @@
     }
 
     .presencia2{
-        height: 500px;
+        
         max-height:500px;
         margin-top: 15px;
         margin-bottom: 50px;
@@ -233,6 +233,9 @@
 
     .navbar{
         width: fit-content;
+    }
+    .titulogaleria, .horaClass h3 {
+       font-size: 1.2rem;    
     }
 }
 

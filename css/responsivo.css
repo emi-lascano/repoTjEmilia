@@ -209,8 +209,8 @@
         color:antiquewhite;
     }
 
-    .textCentral {
-        max-width: 70%;
+    .textCentral { 
+        max-width:70%;
         margin: auto;
        font-size: 17px;
    } 

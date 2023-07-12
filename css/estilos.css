@@ -43,6 +43,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: absolute;
     margin-left: 25%;
     margin-right: 25%;
@@ -148,9 +149,20 @@ h2 {
     top: 0px;
 }
 
+.principalImg{
+
+    background-image: url("../multimedia/portada.jpeg");
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+
+}
 
 main {
-    /*background-image: url("../multimedia/portada.jpeg");*/
+  
     /* filter:sepia(30%) ;*/
     /*   filter: grayscale(1) blur(1px) contrast(1) sepia(0.5) blur(0.25px);*/
     /* -webkit-mask: radial-gradient(#000, #000a); */
@@ -158,7 +170,8 @@ main {
     background-position: center;*/
    /*  padding-top: 0px;
     padding-bottom: 0px; */
-    display: block;
+    height: 100vh;
+
     
     justify-content: center;
     align-items: center;
@@ -435,6 +448,7 @@ button a{
 .ornamento{
     width: 200px;
     margin-top: 2rem;
+    margin: auto;
 
 }
 

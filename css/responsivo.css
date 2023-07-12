@@ -17,17 +17,21 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 700px) {
+
+    .principalImg{
+
+        height: 100%;
+        width: auto;
+    }
+    
     main {
-        
-       background-size: cover;
-        background-position: center;
+        height: 70vh;
         padding-top: 0px;
         padding-bottom: 0px;
-       
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 70vh;
     }
     .navbar{
         display: none;
@@ -87,6 +91,9 @@
    
      }
 
+     #direccion, #itinerario,#dresscode, #galeria, #cbu {
+        margin-top: 2rem;
+     }
      .centradorow .imgDressCode{
         width: 70%;
         margin: auto;
@@ -142,15 +149,14 @@
     
     }*/
     .horaClass{
-        padding-top: 50px;
-        padding-bottom: 276px;
+        height: 30vh;
+        padding-top:2rem;
+        padding-bottom: 2rem;
     }
+
+
     .titulogaleria, .horaClass h3 {
- 
-
-        padding-top:2.5rem;  
         font-size: 1.5rem;
-
         letter-spacing: 1px;
     }
     .seccionCentral{
@@ -220,6 +226,7 @@
     }
     .centradocolumn {
         max-width: 100%;
+        margin: auto;
     }
 .centradocolumn form {
         width: 100%;
@@ -229,7 +236,7 @@
 
 @media only screen and (max-width: 450px) {
     .tituloCentral h1, .tituloCentral h2, .textCentral{
-        color:antiquewhite;
+        color: #2B2B2B;
     }
 
     .textCentral { 
@@ -245,9 +252,9 @@
     }
 
     .horaClass{
-        padding-top: 50px;
+        padding-top: 2rem;
         max-width: 100%;
-        max-height: 80px;
+        height: 30vh;
     }
 
     .presencia2{
@@ -263,7 +270,25 @@
         width: fit-content;
     }
     .titulogaleria, .horaClass h3 {
+        padding: 0;
        font-size: 1.2rem;    
+    }
+   
+    .carousel-item{
+        display: block;
+        align-items: center;
+    }
+
+    .main {
+        width: auto;
+        height: 70vh;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+    .centradocolumn{
+        margin: auto;
+        padding-top: 5%;
+
     }
 }
 

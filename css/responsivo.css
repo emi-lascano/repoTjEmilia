@@ -1,0 +1,239 @@
+
+@media only screen and (max-width: 1100px) {
+    .centradorow div img, .centradorow div iframe{
+        width: 90%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 700px) {
+    main {
+        
+       background-size: cover;
+        background-position: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .ornamento{
+        margin:auto;
+        width: 50%;
+        margin-top: 0px;
+        
+    }
+     
+    .tituloCentral {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        top: 4rem;
+    
+    }
+    .tituloCentral h1{
+        
+        font-size: 2.5rem;
+    }
+    .textCentral {
+         max-width: 80%;
+         margin: auto;
+        font-size: 17px;
+    }
+    
+
+
+    .center{
+        max-width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+     .centradorow {
+        display: flex;
+        flex-direction: column;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+     .centradoDireccion {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    /* .imgClass1{
+        display: none;
+    }
+    .imgClass2{
+        display:block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+     
+    } */
+
+    .imgClass{
+        height: auto;
+        max-width: 100%;
+      
+    } 
+    .presencia2{
+        height: 0;
+        max-height:100px;
+        background-size:850px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .contenedorPadrinos {
+        grid-template-columns:100%;
+    }
+
+    .contenedorPadrinos p{
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+  
+   /* .imagenFondo2{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        background: url("../multimedia/fondo600w.jpg");
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 600px;
+        align-content: center;
+    
+    }*/
+    .horaClass{
+     
+        padding-bottom: 276px;
+    }
+    .titulogaleria, .horaClass h3 {
+ 
+
+        padding-top:1rem;  
+        font-size: 1.2rem;
+
+        letter-spacing: 1px;
+    }
+    .seccionCentral{
+        width: 100%;
+    }
+    .tituloPadrinos {
+        padding-top:1rem;
+        font-size: 1.2rem;
+
+    }
+    .contenedorPadrinos{
+        font-size: 1.5rem;
+    }  
+    .contenedorPadrinos p{
+        margin: 0rem;
+    }
+    
+    .horaClass p {
+        font-size: 18px;
+    }
+    #typ{
+        margin-top: 2rem;
+    }
+
+    .cuenta-atras {
+        width: 80%;
+        padding: 6px;
+        font-size: 20px;
+  
+        /* padding: 30px 10px 25px 10px;*/
+    }
+        
+    .formBorde {
+
+        max-width: 100%;
+        margin: 0px;
+
+    }
+
+    .formBorde P {
+        font-size: 10px;
+    }
+
+
+    h4{
+        text-align: center;
+    }
+  
+
+    .presencia{
+    
+    max-width: max-content;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;}
+
+    .cbuParrafo{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .cbuParrafo p {
+        font-size: 14px;
+    }
+
+    .centradorow div img, .centradorow div iframe{
+        width: 100%;
+    }
+    .centradocolumn {
+        max-width: 100%;
+    }
+.centradocolumn form {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .formBorde{
+        width: 90%;
+        height: auto;
+
+    }
+
+    .horaClass{
+        max-width: 100%;
+        max-height: 80px;
+    }
+
+    .presencia2{
+        height: 500px;
+        max-height:400px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .navbar{
+        width: fit-content;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

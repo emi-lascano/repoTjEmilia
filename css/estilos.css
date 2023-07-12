@@ -1,0 +1,443 @@
+* {
+
+   font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+    top: 0px;
+
+}
+
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+
+    border-top: 0em solid;
+    border-right: 0em solid transparent;
+    border-bottom: 0;
+    border-left: 0em solid transparent;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    size: 20px;
+    color: black;
+}
+
+.tituloCentral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    height: auto;
+
+    text-align: center;
+    color:   #2B2B2B;;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #2B2B2B;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+h2 {
+    font-family: "DM Sans", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight:bold;   
+    text-align: center;
+    color: #2B2B2B;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.material-symbols-outlined {
+    color:   #2B2B2B;
+
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+/*
+.ornamentoClass {
+    visibility: visible;
+    width: 15rem;
+}*/
+
+.textCentral {
+    font-family: "Cormorant Garamond", Sans-serif;
+    padding-top: 8px;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1em;
+    letter-spacing: 2.9px;
+    color: #2B2B2B;
+    max-width: 100%;
+}
+
+/*  -----HEADER----- */
+.linkBlanco {
+    color: antiquewhite;
+}
+
+.linkBlanco:hover {
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+.linkBlanc:visited {
+    color: antiquewhite;
+}
+
+/*****/
+.bg-light, .bg-dark{
+    background-color: #818181 !important;
+    color: antiquewhite;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    opacity: 85%;
+}
+
+/*-transicion imagen y zoom*/
+/* .zoom {
+    transition:initial; 
+
+}
+
+.zoom:hover {
+    transform: scale(1.5); 
+}
+  */
+.carousel-item{
+    margin-left: 0px;
+    margin: auto;
+    top: 0px;
+}
+
+
+main {
+    /*background-image: url("../multimedia/portada.jpeg");*/
+    /* filter:sepia(30%) ;*/
+    /*   filter: grayscale(1) blur(1px) contrast(1) sepia(0.5) blur(0.25px);*/
+    /* -webkit-mask: radial-gradient(#000, #000a); */
+ /*   background-size: cover;
+    background-position: center;*/
+   /*  padding-top: 0px;
+    padding-bottom: 0px; */
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+}
+.carousel-inner{
+    top: 0px;
+}
+
+
+
+ .d-block{
+    width:250%;
+    height: auto;
+ }
+
+h3 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.contenedorPadrinos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.2rem;
+    text-align: center;
+    color: #2B2B2B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1em;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.contenedorPadrinos p {
+    padding-bottom: 1rem;
+}
+
+.tituloPadrinos {
+    color: #7A7A7A;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 2em;
+}
+
+/* SECCION HORA */
+.horaClass {
+    font-family: "Cormorant Garamond", Sans-serif;
+    background-image: url("../multimedia/fondo.jpeg");
+   
+    backdrop-filter: blur(50px);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 400px;
+    height: 300px;
+}
+
+.horaClass h3 {
+    text-align: center;
+    color: #4B4B4B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+}
+
+.horaClass p {
+    text-transform: uppercase;
+    color: #818181;
+    font-family: "Rufina";
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 2.9px;
+}
+
+.centradocolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: .7px;
+    margin-top: 2rem;
+    color: #818181;
+    /* font-family: "Rufina";
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 2.9px;*/
+}
+
+.centradoDireccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    letter-spacing: .7px;
+    margin-top: 2rem;
+    color: #818181;
+    /* font-family: "Rufina";
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 2.9px;*/
+}
+
+.cuenta-atras {
+    width: 100%;
+    color: #4B4B4B;
+    background-color: #fcf1f100;
+    padding: 14px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    /* padding: 30px 10px 25px 10px;*/
+}
+
+.formBorde {
+    width: 100px;
+    border: double .2rem #aa967f;
+    margin: 10px;
+    text-align: center;
+    background: #ffffff34;
+}
+
+.formBorde P {
+    font-size: 15px;
+    letter-spacing: .7px;
+    padding-top: 6px;
+    margin-bottom: 0;
+}
+
+/* 
+.imgClass1{
+    display: block;
+    max-width: 100%;
+}
+.imgClass2{
+    display:none;
+} */
+
+.presencia2{
+    background-image: url("../multimedia/DiseñoFondo768w.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: 768px;
+    width: auto;
+}
+ 
+.imgClass{
+    height: 529px;
+    width: auto;
+  
+} 
+
+/*
+.imagenFondo2{
+    display: grid;
+    grid-template-columns: 100%;
+
+    background: url("../multimedia/fondo1366w.jpg");
+    background-image: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}*/
+
+#typ{
+    margin-bottom: 2rem;
+}
+
+.fotoClass {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.2rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.fotoClass img {
+    max-width: 100%;
+}
+
+button {
+    color: white;
+    background-color: #008080;
+    border: solid 1px #008080;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.centradorow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.white {
+    /*color: white;*/
+    color: #2B2B2B;
+    max-width: 35%;
+    margin: auto;
+}
+
+.titulogaleria{
+    text-align: center;
+    color: #4B4B4B;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.presencia{
+    background-image: url("../multimedia/DiseñoFondo768w.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.ornamento{
+    width: 200px;
+    margin-top: 2rem;
+
+}
+
+#cbu{
+    margin-bottom: 3rem;
+}
+
+.cbuParrafo{
+    max-width: 90%;
+}
+.cbuParrafo p{
+    font-weight: bolder;
+    font-size: 18px;
+    margin: auto;
+}

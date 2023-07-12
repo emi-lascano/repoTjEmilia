@@ -239,6 +239,20 @@
 }
 
 @media only screen and (max-width: 450px) {
+    
+        .principalImg{
+
+            background-image: url("../multimedia/3.jpg");
+            display: block;
+            justify-content: center;
+            height: 100vh;
+            width: auto;
+            background-size: cover;
+            background-position: top;
+
+        }
+
+
     .tituloCentral h1, .tituloCentral h2, .textCentral{
         color: #2B2B2B;
     }
@@ -298,6 +312,7 @@
         padding-top: 5%;
 
     }
+
 }
 
 
